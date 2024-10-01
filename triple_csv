@@ -1,0 +1,105 @@
+,source,target,edge
+0,Snort  lab,Linux,has prereq
+1,Snort  lab,Computer Networking,has prereq
+2,Snort  lab,setup syslog,has
+3,Snort  lab,syslogremote for logging,uses
+4,prereq,attacks,deploy
+5,Snort  lab,four  tasks,has
+6,Students,packet sniffer,will use
+7,Students,own IDS rules,will write
+8,Students,public  domain,access
+9,Attacks,public  domain,damage
+10,Students,ethical  requirement,should agree
+11,IDS,Intrusion Detection,means
+12,Snort,Intrusion Detection,is used for
+13,Snort,network attacks,can detect
+14,Snort,simple packet logger,be used as
+15,Snort,real  time  traffic,analyze
+16,Snort,real data flow,analyze
+17,Snort,protocol analysis,can check
+18,Snort,different  types of attacks,detect
+19,Snort,packet user rules,checks
+20,Snort  rules,in language,be written in
+21,Snort  rules,good  structure,have
+22,Snort,previous attack pattern,match
+23,Snort,network behavior,checks
+24,Snort,bad  packet,can discard
+25,Snort,Packet Decoder,has
+26,Packet Decoder,packets,forms
+27,Packet Decoder,underlying  protocols,determines
+28,Packet Decoder,data size,determines
+29,Packet Decoder,header anomalies,looks
+30,Snort,Preprocessor,has
+31,Preprocessor,HTTP  anomalies,verify
+32,Preprocessor,FTP anomalies,verify
+33,Preprocessor,packet data,can modify
+34,Snort,Detection Engine,has
+35,Detection Engine,intrusion in packet,detects
+36,Detection Engine,rules,chains
+37,Snort,Alert system,has
+38,Snort,Output Module,has
+39,Output Module,of output,type
+40,Output Module,alerts,sends
+41,Task1,Snort,is
+42,C1,Snort,installs
+43,Snort,O1,shows
+44,,,status
+45,Snort  status,O2,shows
+46,Configuration files,folder F1,are located in
+47,Task2,,is run
+48,C3,Snort into NIDS,turns
+49,Server,N1,has
+50,Attacker,N2,has
+51,i1,,is set
+52,i2,Ingress,sets
+53,i3,Egress,sets
+54,i4,Server,sets
+55,,Sniff mode,Snort
+56,Snort,Ingress,can sniff
+57,Snort,Egress,can sniff
+58,Ingress,incoming  traffic,captures
+59,Snort,firewall traffic,sniffs
+60,Task2,Snort rules,writes
+61,C4,,makes
+62,Snort,packet logging,has
+63,packet logging,data as file,collects
+64,C5,files into directories,sorts
+65,O3,alert in terminal,creates
+66,C7,log files,can read
+67,Snort,,tcpdump
+68,Snort,,can output
+69,C8,file type,can tell
+70,Wireshark,,can read
+71,u2spewfoo,unified2,can read
+72,C9,alerts  syslog,sends
+73,Task3,Snort  rules,is add
+74,Detection alert,IP packets,is added to
+75,C10,,conf
+76,C11 edits,,snort conf
+77,Snort  rules,icmp rules,is tested
+78,R1,icmp rules,is added to
+79,C12,icmp rules,can test
+80,Snort  rules,system variables,is tested
+81,system variables,conf file,be edited in
+82,system variables,home network,be set as
+83,system variables,external  network,set
+84,C13,home network,overrides
+85,R2,tcp rules,appends
+86,C14,Snort NIDS,make
+87,Snort  rules,payload options,is tested
+88,payload options,captured  data,shows
+89,Snort  rules,non payload options,is tested
+90,R3,HTTP,matches
+91,R4,icmp messages,identify
+92,Network,gateway server,is set as
+93,Packet forwarding,on Gateway,enabled
+94,Firewall,server,set
+95,,for testing,Firewall
+96,Blacklist,for testing,enabled
+97,Task4,Land Attack,is detecting
+98,Land Attack,spoofed SYN Packets,sends
+99,Task4,Flood Attack,is detecting
+100,Task4,Smurf Attack,is detecting
+101,Task4,Flood Attack,is detecting
+102,Task4,Scan Port Attack,is detecting
+103,Task4,Snort syslog,is settting

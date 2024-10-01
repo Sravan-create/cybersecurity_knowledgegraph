@@ -1,0 +1,84 @@
+Entity,Labels
+one,CARDINAL
+CIA,ORG
+availability.[4,PERSON
+the first six months of 2017,DATE
+two billion,CARDINAL
+US$2 billion,MONEY
+2016.[6,CARDINAL
+2020,DATE
+$170.4 billion,MONEY
+2022.[8,DATE
+zero day,DATE
+daily,DATE
+zero days,DATE
+exploitation.[14,ORG
+system.[16,PERSON
+effective.[18,ORG
+2019,DATE
+zero,CARDINAL
+planning.[23,NORP
+zero-day,DATE
+error.[4][27,PERSON
+surface.[30,PERSON
+attacks.[31,ORG
+cyberattacks.[32,NORP
+attack.[33,GPE
+malware.[34] Drive,PRODUCT
+37,CARDINAL
+unusable.[34],PRODUCT
+Ransomware,FAC
+Lapsus$,ORG
+efficiently.[45,ORG
+one,CARDINAL
+time.[45,PERSON
+zero-day,DATE
+hacking.[53,ORG
+DDOS,ORG
+DDOS,PERSON
+first,ORDINAL
+network.[58,ORG
+cyberattacks.[59,PERSON
+ten,CARDINAL
+the United States,GPE
+2020,DATE
+2016â€“2017,DATE
+One,CARDINAL
+Digital,ORG
+the United States,GPE
+year,DATE
+2005â€“2023,CARDINAL
+Thousands,CARDINAL
+2020,DATE
+55 percent,PERCENT
+10 percent,PERCENT
+10 percent,PERCENT
+10 percent,PERCENT
+Anonymous,PERSON
+business.[72,GPE
+Colonial Pipeline,ORG
+Oak Hill,GPE
+Virginia,GPE
+years,DATE
+2023.[75,CARDINAL
+efforts.[78,GPE
+2022,DATE
+Costa Rica,GPE
+2023,DATE
+incidents.[83][84,ORG
+197,CARDINAL
+Discovery,PRODUCT
+adversary[88,WORK_OF_ART
+only one,CARDINAL
+two,CARDINAL
+reoccurring.[92,ORG
+expected.[93,ORG
+obligations.[95,PERSON
+Cyber forensics,PRODUCT
+identity.[99,ORG
+caught.[103,ORG
+Tallinn,GPE
+"law,[104",ORG
+2021,DATE
+United Nations,ORG
+cyberattack.[111,PERSON
