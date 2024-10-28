@@ -1,0 +1,117 @@
+A cyberattack (or cyber attack) occurs when there is an unauthorized action against computer infrastructure that compromises the confidentiality, integrity, or availability of its content.
+
+The rising dependence on increasingly complex and interconnected computer systems in most domains of life is the main factor that causes vulnerability to cyberattacks, since virtually all computer systems have bugs that can be exploited by attackers. Although it is impossible or impractical to create a perfectly secure system, there are many defense mechanisms that can make a system more difficult to attack.
+
+Perpetrators of a cyberattack can be criminals, hacktivists, or states. They attempt to find weaknesses in a system, exploit them and create malware to carry out their goals, and deliver it to the targeted system. Once installed, the malware can have a variety of effects depending on its purpose. Detection of cyberattacks is often absent or delayed, especially when the malware attempts to spy on the system while remaining undiscovered. If it is discovered, the targeted organization may attempt to collect evidence about the attack, remove malware from its systems, and close the vulnerability that enabled the attack.
+
+Cyberattacks can cause a variety of harms to targeted individuals, organizations, and governments, including significant financial losses and identity theft. They are usually illegal both as a method of crime and warfare, although correctly attributing the attack is difficult and perpetrators are rarely prosecuted.
+
+Definitions
+A cyberattack can be defined as any attempt by an individual or organization "using one or more computers and computer systems to steal, expose, change, disable or eliminate information, or to breach computer information systems, computer networks, and computer infrastructures".[1] Definitions differ as to the type of compromise required – for example, requiring the system to produce unexpected responses or cause injury or property damage.[2] Some definitions exclude attacks carried out by non-state actors and others require the target to be a state.[3] Keeping a system secure relies on maintaining the CIA triad: confidentiality (no unauthorized access), integrity (no unauthorized modification), and availability.[4] Although availability is less important for some web-based services, it can be the most crucial aspect for industrial systems.[5]
+
+Prevalence
+In the first six months of 2017, two billion data records were stolen or impacted by cyber attacks, and ransomware payments reached US$2 billion, double that in 2016.[6] In 2020, with the increase of remote work as an effect of the COVID-19 global pandemic, cybersecurity statistics reveal a huge increase in hacked and breached data.[7] The worldwide information security market is forecast to reach $170.4 billion in 2022.[8]
+
+Vulnerability
+
+Timeline of a software vulnerability that is discovered by attackers prior to a vendor (zero day)
+Over time, computer systems make up an increasing portion of daily life and interactions. While the increasing complexity and connectedness of the systems increases the efficiency, power, and convenience of computer technology, it also renders the systems more vulnerable to attack and worsens the consequences of an attack, should one occur.[9]
+
+Despite developers' goal of delivering a product that works entirely as intended, virtually all software and hardware contains bugs.[10] If a bug creates a security risk, it is called a vulnerability.[11][12][13] Patches are often released to fix identified vulnerabilities, but those that remain unknown (zero days) as well as those that have not been patched are still liable for exploitation.[14] The software vendor is not legally liable for the cost if a vulnerability is used in an attack, which creates an incentive to make cheaper but less secure software.[15] Vulnerabilities vary in their ability to be exploited by malicious actors. The most valuable allow the attacker to inject and run their own code (called malware), without the user being aware of it.[11] Without a vulnerability enabling access, the attacker cannot gain access to the system.[16]
+
+Protection
+Further information: Cybersecurity and cyber resilience
+A system's architecture and design decisions play a major role in determining how safe it can be.[17] The traditional approach to improving security is the detection of systems vulnerable to attack and hardening these systems to make attacks more difficult, but it is only partially effective.[18] Formal risk assessment for compromise of highly complex and interconnected systems is impractical[19] and the related question of how much to spend on security is difficult to answer.[20] Because of the ever changing and uncertain nature of cyber-threats, risk assessment may produce scenarios that are costly or unaffordable to mitigate.[21] As of 2019, there are no commercially available, widely used active defense systems for protecting systems by intentionally increasing the complexity or variability of systems to make it harder to attack.[22] The cyber resilience approach, on the other hand, assumes that breaches will occur and focuses on protecting essential functionality even if parts are compromised, using approaches such as micro-segmentation, zero trust, and business continuity planning.[23]
+
+The majority of attacks can be prevented by ensuring all software is fully patched. Nevertheless, fully patched systems are still vulnerable to exploits using zero-day vulnerabilities.[24] The highest risk of attack occurs just after a vulnerability has been publicly disclosed or a patch is released, because attackers can create exploits faster than a patch can be developed and rolled out.[25]
+
+Software solutions aim to prevent unauthorized access and detect the intrusion of malicious software.[26] Training users can avoid cyberattacks (for example, not to click on a suspicious link or email attachment), especially those that depend on user error.[4][27] However, too many rules can cause employees to disregard them, negating any security improvement. Some insider attacks can also be prevented using rules and procedures.[27] Technical solutions can prevent many causes of human error that leave data vulnerable to attackers, such as encrypting all sensitive data, preventing employees from using insecure passwords, installing antivirus software to prevent malware, and implementing a robust patching system to ensure that all devices are kept up to date.[28]
+
+There is little evidence about the effectiveness and cost-effectiveness of different cyberattack prevention measures.[26] Although attention to security can reduce the risk of attack, achieving perfect security for a complex system is impossible, and many security measures have unacceptable cost or usability downsides.[29] For example, reducing the complexity and functionality of the system is effective at reducing the attack surface.[30] Disconnecting systems from the internet is one truly effective measure against attacks, but it is rarely feasible.[19] In some jurisdictions, there are legal requirements for protecting against attacks.[31]
+
+Attack process and types
+See also: Computer security § Vulnerabilities and attacks
+
+Intrusion kill chain for information security
+
+Another model of the cyberattack chain
+The cyber kill chain is the process by which perpetrators carry out cyberattacks.[32]
+
+Reconnaissance: would-be attackers search for information about the system in order to target it. They may seek out publicly available information or carry out social engineering attacks to obtain more information about the target's systems.[32]
+Weaponization: after finding a vulnerability, attackers build an exploit to gain access, and malware to carry out the attack.[33]
+Delivery: once complete, the malware is delivered to the target.[33] Most data breaches and malware insertions are enabled by phishing, where the attacker sends a malicious communication, often an email, in an attempt to get the recipient to click on a link or attachment to deliver malware.[34] Drive-by-download does not require any clicks, only a visit to a malicious website.[34] Sometimes insiders are behind the attack and can use their credentials to bypass security.[35] Some attacks are delivered indirectly via associated companies that have a business relationship with the target. Others may be delivered by directly accessing hardware, particularly in the cases of bribery or blackmail.[33]
+Exploitation: the attacker's software is executed on the targeted system, and often creates a backdoor to enable remote control by the attacker.[33]
+Many attackers will not launch an attack right away.[36] The attacker often seeks to persist after system interruption (such as crash or restart), evade detection, and escalate privileges, [37] and secure multiple channels of communication with its controllers.[36] Other common actions include responding to remote controls and collecting and copying data to a device controlled by the attacker (data exfiltration).[37]
+Activity
+After the malware is installed, its activity varies greatly depending on the attacker's goals.[38] Many attackers try to eavesdrop on a system without affecting it. Although this type of malware can have unexpected side effects, it is often very difficult to detect.[39] Botnets are networks of compromised devices that can be used to send spam or carry out[40] denial-of-service attacks—flooding a system with too many requests for the system to handle at once, causing it to become unusable.[34] Attackers may also use computers to mine cryptocurrencies, such as Bitcoin, for their own profit.[41]
+
+Ransomware is software used to encrypt or destroy data; attackers demand payment for the restoration of the targeted system. The advent of cryptocurrency enabling anonymous transactions has led to a dramatic increase in ransomware demands.[42]
+
+Perpetrators and motivations
+
+Website defacement: Lapsus$ hackers replaced the content of a website
+The stereotype of a hacker is an individual working for themself. However, many cyber threats are teams of well-resourced experts.[43] "Growing revenues for cyber criminals are leading to more and more attacks, increasing professionalism and highly specialized attackers. In addition, unlike other forms of crime, cybercrime can be carried out remotely, and cyber attacks often scale well."[44] Many cyberattacks are caused or enabled by insiders, often employees who bypass security procedures to get their job done more efficiently.[45] Attackers vary widely in their skill and sophistication and well as their determination to attack a particular target, as opposed to opportunistically picking one easy to attack.[45] The skill level of the attacker determined which types of attacks they are prepared to mount.[46] The most sophisticated attackers can persist undetected on a hardened system for an extended period of time.[45]
+
+Motivations and aims also differ. Depending whether the expected threat is passive espionage, data manipulation, or active hijacking, different mitigation methods may be needed.[39]
+
+Software vendors and governments are mainly interested in undisclosed vulnerabilities (zero-days),[47] while organized crime groups are more interested in ready-to-use exploit kits based on known vulnerabilities,[48][49] which are much cheaper.[50] The lack of transparency in the market causes problems, such as buyers being unable to guarantee that the zero-day vulnerability was not sold to another party.[51] Both buyers and sellers advertise on the dark web and use cryptocurrency for untraceable transactions.[52][53] Because of the difficulty in writing and maintaining software that can attack a wide variety of systems, criminals found they could make more money by renting out their exploits rather than using them directly.[54]
+
+Cybercrime as a service, where hackers sell prepacked software that can be used to cause a cyberattack, is increasingly popular as a lower risk and higher profit activity than traditional hacking.[53] A major form of this is to create a botnet of compromised devices and rent or sell it to another cybercriminal. Different botnets are equipped for different tasks such as DDOS attacks or password cracking.[55] It is also possible to buy the software used to create a botnet[56] and bots that load the purchaser's malware onto a botnet's devices.[57] DDOS as a service using botnets retained under the control of the seller is also common, and may be the first cybercrime as a service product, and can also be committed by SMS flooding on the cellular network.[58] Malware and ransomware as a service have made it possible for individuals without technical ability to carry out cyberattacks.[59]
+
+Targets and consequences
+
+Top ten industries targeted by cyberattacks in the United States in 2020
+
+Total annualized cyberattack cost by attack type, 2016–2017
+Targets of cyberattacks range from individuals to corporations and government entities.[9] Many cyberattacks are foiled or unsuccessful, but those that succeed can have devastating consequences.[19] Understanding the negative effects of cyberattacks helps organizations ensure that their prevention strategies are cost-effective.[26] One paper classifies the harm caused by cyberattacks in several domains:[60]
+
+Physical damage, including injury or death or destruction of property[61]
+Digital damage, such as the destruction of data or introduction of malware[61]
+Economic losses, such as those caused by disrupted operations, the cost of investigation, or regulatory fines.[61]
+Psychological harm, such as users being upset that their data has been leaked[62]
+Reputational damage, loss of reputation caused by the attack[63]
+Negative externalities to society at large, such as consumers losing access to an important service because of the attack.[64]
+Consumer data
+Main article: Data breach
+
+Data breaches reported in the United States by year, 2005–2023
+Thousands of data records are stolen from individuals every day.[9] According to a 2020 estimate, 55 percent of data breaches were caused by organized crime, 10 percent by system administrators, 10 percent by end users such as customers or employees, and 10 percent by states or state-affiliated actors.[65] Opportunistic criminals may cause data breaches—often using malware or social engineering attacks, but they will typically move on if the security is above average. More organized criminals have more resources and are more focused in their targeting of particular data.[66] Both of them sell the information they obtain for financial gain.[67] Another source of data breaches are politically motivated hackers, for example Anonymous, that target particular objectives.[68] State-sponsored hackers target either citizens of their country or foreign entities, for such purposes as political repression and espionage.[69]
+
+After a data breach, criminals make money by selling data, such as usernames, passwords, social media or customer loyalty account information, debit and credit card numbers,[67] and personal health information (see medical data breach).[70] This information may be used for a variety of purposes, such as spamming, obtaining products with a victim's loyalty or payment information, prescription drug fraud, insurance fraud,[71] and especially identity theft.[41] Consumer losses from a breach are usually a negative externality for the business.[72]
+
+Critical infrastructure
+
+Out-of-service gas pumps due to panic buying after the Colonial Pipeline cyberattack in Oak Hill, Virginia
+Critical infrastructure is that considered most essential—such as healthcare, water supply, transport, and financial services—which has been increasingly governed by cyber-physical systems that depend on network access for their functionality.[73][74] For years, writers have warned of cataclysmic consequences of cyberattacks that have failed to materialize as of 2023.[75] These extreme scenarios could still occur, but many experts consider that it is unlikely that challenges in inflicting physical damage or spreading terror can be overcome.[75] Smaller-scale cyberattacks, sometimes resulting in interruption of essential services, regularly occur.[76]
+
+Corporations and organizations
+There is little empirical evidence of economic harm (such as reputational damage) from breaches except the direct cost[77] for such matters as legal, technical, and public relations recovery efforts.[78] Studies that have attempted to correlate cyberattacks to short-term declines in stock prices have found contradictory results, with some finding modest losses, others finding no effect, and some researchers criticizing these studies on methodological grounds. The effect on stock price may vary depending on the type of attack.[79] Some experts have argued that the evidence suggests there is not enough direct costs or reputational damage from breaches to sufficiently incentivize their prevention.[80][81]
+
+Governments
+
+In 2022, government websites of Costa Rica were down because of a ransomware attack.
+Government websites and services are among those affected by cyberattacks.[76] Some experts hypothesize that cyberattacks weaken societal trust or trust in the government, but as of 2023 this notion has only limited evidence.[75]
+
+Responses
+See also: Computer security incident management
+Responding quickly to attacks is an effective way to limit the damage. The response is likely to require a wide variety of skills, from technical investigation to legal and public relations.[82] Because of the prevalence of cyberattacks, some companies plan their incident response before any attack is detected, and may designate a computer emergency response team to be prepared to handle incidents.[83][84]
+
+Detection
+Many attacks are never detected. Of those that are, the average time to discovery is 197 days.[85] Some systems can detect and flag anomalies that may indicate an attack, using such technology as antivirus, firewall, or an intrusion detection system. Once suspicious activity is suspected, investigators look for indicators of attack and indicators of compromise.[86] Discovery is quicker and more likely if the attack targets information availability (for example with a denial-of-service attack) rather than integrity (modifying data) or confidentiality (copying data without changing it).[87] State actors are more likely to keep the attack secret. Sophisticated attacks using valuable exploits are more less likely to be detected or announced – as the perpetrator wants to protect the usefulness of the exploit.[87]
+
+Evidence collection is done immediately, prioritizing volatile evidence that is likely to be erased quickly.[88] Gathering data about the breach can facilitate later litigation or criminal prosecution,[89] but only if the data is gathered according to legal standards and the chain of custody is maintained.[90][88]
+
+Recovery
+Containing the affected system is often a high priority after an attack, and may be enacted by shutoff, isolation, use of a sandbox system to find out more about the adversary[88] patching the vulnerability, and rebuilding.[91] Once the exact way that the system was compromised is identified, there is typically only one or two technical vulnerabilities that need to be addressed in order to contain the breach and prevent it from reoccurring.[92] A penetration test can then verify that the fix is working as expected.[93] If malware is involved, the organization must investigate and close all infiltration and exfiltration vectors, as well as locate and remove all malware from its systems.[94] Containment can compromise investigation, and some tactics (such as shutting down servers) can violate the company's contractual obligations.[95] After the breach is fully contained, the company can then work on restoring all systems to operational.[96] Maintaining a backup and having tested incident response procedures are used to improve recovery.[23]
+
+Attribution
+See also: Cyber attribution and Cyber forensics
+Attributing a cyberattack is difficult, and of limited interest to companies that are targeted by cyberattacks. In contrast, secret services often have a compelling interest in finding out whether a state is behind the attack.[97] Unlike attacks carried out in person, determining the entity behind a cyberattack is difficult.[98] A further challenge in attribution of cyberattacks is the possibility of a false flag attack, where the actual perpetrator makes it appear that someone else caused the attack.[97] Every stage of the attack may leave artifacts, such as entries in log files, that can be used to help determine the attacker's goals and identity.[99] In the aftermath of an attack, investigators often begin by saving as many artifacts as they can find,[100] and then try to determine the attacker.[101] Law enforcement agencies may investigate cyber incidents[102] although the hackers responsible are rarely caught.[103]
+
+Legality
+See also: Tallinn Manual
+Most states agree that cyberattacks are regulated under the laws governing the use of force in international law,[104] and therefore cyberattacks as a form of warfare are likely to violate the prohibition of aggression.[105] Therefore, they could be prosecuted as a crime of aggression.[106] There is also agreement that cyberattacks are governed by international humanitarian law,[104] and if they target civilian infrastructure, they could be prosecuted as a war crime, crime against humanity, or act of genocide.[106] International courts cannot enforce these laws without sound attribution of the attack, without which countermeasures by a state are not legal either.[107]
+
+In many countries, cyberattacks are prosecutable under various laws aimed at cybercrime.[108] Attribution of the attack beyond reasonable doubt to the accused is also a major challenge in criminal proceedings.[109] In 2021, United Nations member states began negotiating a draft cybercrime treaty.[110]
+
+Many jurisdictions have data breach notification laws that require organizations to notify people whose personal data has been compromised in a cyberattack.[111]
