@@ -1,24 +1,26 @@
-# KG-CyberSec: Building a Knowledge Graph from Unstructured Text
+
+---
+
+# KG-CyberSec: Knowledge Graph and Chatbot from Unstructured Cybersecurity Text
 
 ## Project Overview
-KG-CyberSec is a comprehensive project aimed at building a **Knowledge Graph** from unstructured cybersecurity data. Using **Named Entity Recognition (NER)**, **relation extraction**, and **ontology development**, the project transforms raw text from lab manuals and course materials into structured triples, which can be visualized in a knowledge graph. This project helps organize and understand cybersecurity concepts, making it easier for cybersecurity education and analysis.
+KG-CyberSec builds a **Knowledge Graph** from unstructured cybersecurity data and integrates a **BERT-powered chatbot** to answer user queries based on extracted entities and relations. This project organizes cybersecurity concepts into structured triples, enabling efficient knowledge retrieval and enhancing educational or analytical insights in cybersecurity.
 
-### Key Features:
-- Extracts **subject-object pairs** and identifies relations using NER and custom rule-based patterns.
-- Creates a **knowledge graph** that visually maps key cybersecurity entities and their relationships.
-- Integrates custom **entity matching** to enhance the precision of extracted entities.
-- Employs relation extraction to determine the interaction between cybersecurity concepts.
-- Builds an interactive **chatbot** to answer cybersecurity-related queries using the knowledge graph.
+### Key Features
+- **Knowledge Graph Construction**: Extracts entities, relations, and builds structured triples from cybersecurity text.
+- **Redundancy Reduction**: Merges similar entities and removes redundancies for an optimized graph.
+- **BERT Chatbot**: Responds to cybersecurity queries by retrieving relevant information from the knowledge graph.
 
 ## Libraries Used
-Below are the main libraries and tools utilized in the project:
-- **spaCy**: For NER (Named Entity Recognition) and dependency parsing.
-- **pandas**: For handling data storage and manipulation (e.g., storing triples in a DataFrame).
-- **re**: For regular expressions used in text processing.
-- **csv**: For reading and writing CSV files (for storing entity-relation data).
-- **Matplotlib/NetworkX**: (Optional) For visualizing the knowledge graph.
+- **Transformers (BERT)**: For query embedding and similarity matching.
+- **spaCy**: For Named Entity Recognition and initial parsing.
+- **pandas**: Manages data organization for entity-relation storage.
+- **NetworkX & Matplotlib**: Visualizes the knowledge graph structure.
 
 Install the required libraries using:
 ```bash
-pip install spacy pandas
-python -m spacy download en_core_web_sm  # For the small English model
+pip install transformers spacy pandas networkx matplotlib
+python -m spacy download en_core_web_sm
+```
+
+--- 
