@@ -21,6 +21,16 @@ Install the required libraries using:
 ```bash
 pip install transformers spacy pandas networkx matplotlib
 python -m spacy download en_core_web_sm
+spacy==3.5.1              # For Named Entity Recognition and dependency parsing
+transformers==4.34.0      # For using BERT for chatbot and entity matching
+pandas==1.5.3             # For data manipulation and storage
+matplotlib==3.7.2         # For visualization of the knowledge graph
+networkx==3.2             # For building and visualizing knowledge graphs
+scikit-learn==1.3.1       # For SVM-based intent classification
+jupyter==1.0.0            # To run and manage Jupyter notebooks
+numpy==1.24.3             # For numerical computations
+PyYAML==6.0               # For managing knowledge base files in YAML format
+
 ```
 
 --- 
